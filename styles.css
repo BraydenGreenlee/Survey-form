@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.title-card {
+    background-color: #c6c6c6;
+    max-width: 500rem;
+    max-height: 150rem;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+.form-card {
+    background-color: #c6c6c6;
+    max-width: 500rem;
+    max-height: auto;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    font-family: courier, monospace;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    font-family: courier, monospace;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.survey-label {
+    display: block;
+    font-weight: bold;
+    font-family: courier, monospace;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    margin-top: 15px;    
+}
+
+.survey-dropdown {
+
+}
+
+.comments-label {
+    display: block;
+    font-weight: bold;
+    font-family: courier, monospace;
+    font-size: 1rem;
+    margin-bottom: 1px;
+    margin-top: 15px;    
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: midnightblue;
+  transition: background-color 0.3s ease;
+}
+
+.card-links a:hover {
+  background-color: orangered;
+}
+
+.card-links a:active {
+  background-color: midnightblue;
+}
+
+.card-links a:focus {
+  outline: 2px solid yellow;
+}
+
+.card-links a:visited {
+  color: crimson;
+}
